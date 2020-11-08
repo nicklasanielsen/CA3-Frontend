@@ -10,7 +10,7 @@ node_js: node
 cache: npm
 
 addons:
-  ssh_known_hosts: "$REMOTE_URL"
+  ssh_known_hosts: $REMOTE_URL
 
 script: npm install
 

@@ -26,4 +26,4 @@ deploy:
   skip-cleanup: true
   script: bash ./scripts/deploy.sh
   on:
-    branch: main
+    branch: master

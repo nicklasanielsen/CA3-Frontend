@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,visualstudiocode,netbeans,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,visualstudiocode,netbeans,node
+# Created by https://www.toptal.com/developers/gitignore/api/node,macos,linux,windows,netbeans,visualstudiocode,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,linux,windows,netbeans,visualstudiocode,react
 
 ### Linux ###
 *~
@@ -167,6 +167,19 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
+
+node_modules
+
+*.sublime*
+
+psd
+thumb
+sketch
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -206,4 +219,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,windows,linux,visualstudiocode,netbeans,node
+# End of https://www.toptal.com/developers/gitignore/api/node,macos,linux,windows,netbeans,visualstudiocode,react

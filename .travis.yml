@@ -15,7 +15,7 @@ addons:
 script:
   - cd ./application
   - npm install
-  - npm build
+  - npm run build
 
 before_deploy:
   - openssl aes-256-cbc -K $encrypted_db2095f63ba3_key -iv $encrypted_db2095f63ba3_iv

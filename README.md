@@ -22,6 +22,12 @@ Are you interested in the backend for this project? Then you can find it [here](
    npm install
    ```
 
+3. Once all the dependencies are installed, the application can be launched with the command below.
+
+   ```bash
+   npm start
+   ```
+
 ## Collaborators
 
 * Mathias Haugaard Nielsen also known as [Haugaard-DK](https://github.com/Haugaard-DK).
@@ -32,3 +38,23 @@ Are you interested in the backend for this project? Then you can find it [here](
 
 This project is covered by the MIT license, see [LICENSE](https://github.com/nicklasanielsen/CA3-Frontend/blob/master/LICENSE) for more information.
 
+## Notes
+
+* Dependencies added
+
+  ```bash
+  # Dependency: jwt-decode
+  # Used to decode JWT
+  npm install jwt-decode
+  
+  # Dependency: bootstrap & react-bootstrap
+  # Used to handle bootstrap tags
+  npm install react-bootstrap bootstrap
+  
+  # Dependency: react-router-dom
+  # Used for the routing features
+  npm install react-router-dom
+  
+  ```
+
+* Link for the API is located within `settings.jsx`.

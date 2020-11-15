@@ -13,7 +13,7 @@ export default function PrivateRoute({
         <Component />
       ) : (
         <Redirect
-          to={{ pathname: "/fanclub/login", state: { from: pathname } }}
+          to={{ pathname: "/CA3/fanclub/login", state: { from: pathname } }}
         />
       )}
     </Route>

@@ -46,33 +46,33 @@ function App() {
 
       <Container className="mt-5">
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/CA3/">
             <Home />
           </Route>
           <PrivateRoute
-            path="/info/user"
+            path="/CA3/info/user"
             isLoggedIn={isLoggedIn}
             component={User}
           />
           <PrivateRoute
-            path="/info/users"
+            path="/CA3/info/users"
             isLoggedIn={isLoggedIn}
             component={Users}
           />
           <PrivateRoute
-            path="/jokes"
+            path="/CA3/jokes"
             isLoggedIn={isLoggedIn}
             component={Jokes}
           />
           <PrivateRoute
-            path="/profile"
+            path="/CA3/profile"
             isLoggedIn={isLoggedIn}
             component={Profile}
           />
-          <Route path="/fanclub/login">
+          <Route path="/CA3/fanclub/login">
             <Login setLoggedIn={setLoggedIn} />
           </Route>
-          <Route path="/fanclub/register">
+          <Route path="/CA3/fanclub/register">
             <Register setLoggedIn={setLoggedIn} />
           </Route>
           <Route>
